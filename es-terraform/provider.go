@@ -6,6 +6,6 @@ import (
 
 func Provider() *schema.Provider {
 	return &schema.Provider{
-		ResourcesMap: map[string]*schema.Resource{"example_server": resourceServer()},
+		ResourcesMap: map[string]*schema.Resource{"elasticsearch_index": resourceServer()},
 	}
 }

@@ -1,5 +1,5 @@
-resource "example_server" "my_collection" {
+resource "elasticsearch_index" "my_collection" {
   doc_id  = 3
   name    = "employee"
-  payload = "{\"name\":\"user d\", \"age\":22}"
+  payload = "{\"name\":\"user d\", \"age\":22,\"department\":\"finance\"}"
 }
