@@ -12,11 +12,4 @@ func main() {
 		},
 	})
 
-	// user := map[string]string{}
-	// user["name"] = "employee2"
-	// buff, _ := json.Marshal(user)
-	// err := es_ops.Create(2, "employee", string(buff))
-	// if err != nil {
-	// 	panic(err)
-	// }
 }
