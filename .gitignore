@@ -1,0 +1,5 @@
+.idea/
+**/*.sum
+iac/.terraform
+iac/.terraform.lock.hcl
+iac/terraform.tfstate
